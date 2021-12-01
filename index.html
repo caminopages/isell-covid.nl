@@ -14,6 +14,7 @@
         
         body {
             background-color: #F8F8F8;
+            font-family: 'DM Sans', sans-serif;
         }
 
         #logo-svg {
@@ -76,11 +77,22 @@
                 opacity: 1;
             }
         }
+
+
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+
+
     </style>
 </head>
 
 
 <body>
+
+    <script>
+        domeim = document.location.hostname;
+        document.title = domeim + " | Camino Pages";
+    </script>
     <div class="centre">
 
         <svg width="248" height="248" viewBox="0 0 248 248" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -154,6 +166,8 @@
                 </filter>
             </defs>
         </svg>
+
+        <h1><script> document.write(document.location.hostname) </script></h1>
 
 
     </div>
